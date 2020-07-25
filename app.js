@@ -18,7 +18,7 @@ const boilingPoint = 100
 
 console.log(gravity, PI, boilingPoint, age)
 
-//declaring variables in one line separated by coma
+//declaring variables in one line separated by comma
 let name = 'Folarin',
     job = 'Software Developer.'
     live = 'Nigeria'
@@ -28,7 +28,7 @@ let name = 'Folarin',
 let residence = 'Lagos, Nigeria.',
     hobbies = 'Singing, reading and watching scientific movies.'
     
-console.log("My name is " + firstName, "and I am a " + job, "I live in " + residence, "My hobbies are " + hobbies);
+console.log(`My name is ${name} and I am an aspiring ${job} My hobbies are ${hobbies}`);
 
 
 
